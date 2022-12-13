@@ -15,7 +15,7 @@ public class KastesKontrole : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
          rotation = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 
@@ -41,7 +41,7 @@ public class KastesKontrole : MonoBehaviour
         }else if(Input.GetKey(KeyCode.E)){
 
             rotation = Vector3.down;
-            
+
         }
         else
         {
