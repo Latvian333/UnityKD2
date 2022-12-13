@@ -34,6 +34,14 @@ public class KastesKontrole : MonoBehaviour
 
             rotation = Vector3.right;
 
+        }else if(Input.GetKey(KeyCode.Q)){
+            
+            rotation = Vector3.up;
+
+        }else if(Input.GetKey(KeyCode.E)){
+
+            rotation = Vector3.down;
+            
         }
         else
         {
